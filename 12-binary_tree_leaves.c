@@ -1,4 +1,4 @@
-#include "binary_trees"
+#include "binary_trees.h"
 
 /**
  * binary_trees_leaves - gets the # of leaves of a binary tree
@@ -6,7 +6,7 @@
  *
  * Return: size_t representing height, 0/ NULL on failure
  */
-size_t binary_tree_leaves(const binary_tree_t *tree)
+size_t binary_tree_leaves(const binary_tree_t *tree)/*Steph*/
 {
 	size_t leaves = 0;
 
