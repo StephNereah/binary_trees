@@ -6,10 +6,10 @@ int binary_tree_balance(const binary_tree_t *tree);
 int binary_tree_is_full(const binary_tree_t *tree);
 
 /**
- * binary_tree_is_perfect - checks if binary tree is perfect
+ * binary_tree_is_perfect - checks if a binary tree is perfect
  * @tree: root node
  *
- * Return: (1) if tree perfect, (0) otherwise
+ * Return: (1) if tree is perfect, (0) otherwise
  */
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
@@ -34,14 +34,14 @@ int binary_tree_is_full(const binary_tree_t *tree)
 	if (!tree)
 		return (0);
 	non_full_nodes = binary_tree_not_full(tree);
-	return ((non_full_nodes) / 0 : 1);
+	return ((non_full_nodes) ? 0 : 1);
 }
 
 /**
- * binary_tree_not_full - recurcise helper function
+ * binary_tree_not_full - recursive helper function
  * @tree: root node
  *
- * Return: number of non full nodes
+ * Return: number of non full nodes found
  */
 int binary_tree_not_full(const binary_tree_t *tree)
 {
