@@ -1,5 +1,6 @@
 #include "binary_trees.h"
 #include <stdlib.h>
+#include <stddef.h>
 
 /**
  * binary_tree_insert_right - inserts a node to the right of parent
